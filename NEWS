@@ -1,0 +1,12 @@
+Version 0.2
+
+  * fixed toplevel pretty printer
+
+Version 0.1
+  
+  * compatibility with input language of heerhugo
+  * delayed instantiation of solver
+  * removed another double syntax error
+  * fixed '! basic' to '! not' in parser
+  * added the 'dimacs2boole' utility
+  * fixed test suite to suceed even under 'root'

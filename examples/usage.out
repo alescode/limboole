@@ -1,0 +1,12 @@
+usage: limboole [ <option> ... ]
+
+  -h             print this command line summary and exit
+  --version      print the version and exit
+  -v             increase verbosity
+  -p             pretty print input formula only
+  -d             dump generated CNF only
+  -s             check satisfiability (default is to check validity)
+  -m <max-dec>   maximal decision bound (default unbounded)
+  -o <out-file>  set output file (default <stdout>)
+  -l <log-file>  set log file (default <stderr>)
+  <in-file>      input file (default <stdin>)
